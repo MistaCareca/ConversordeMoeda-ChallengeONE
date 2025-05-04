@@ -40,7 +40,7 @@ public class Cliente_api {
                 System.out.println("Erro: Moeda inválida. Escolha entre: " + moedasPermitidas);
                 return;
             }
-            String apiKey = "";
+            String apiKey = "Sua-API-Key";
             String url = String.format("https://v6.exchangerate-api.com/v6/%s/pair/%s/%s",
                     apiKey, moedaOrigem, moedaDestino);
 
