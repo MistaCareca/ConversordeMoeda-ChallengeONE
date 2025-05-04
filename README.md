@@ -56,8 +56,6 @@ conversor-de-moedas/
 │           └── conversordemoeda/
 │               ├── Cliente_api.java      # Classe principal com a lógica de conversão
 │               └── ConversaoResponse.java # Classe para mapear respostas JSON
-├── .env                                 # Arquivo com a chave da API (não versionado)
-├── pom.xml                              # Arquivo Maven (opcional)
 └── README.md                            # Documentação do projeto
 ```
 
